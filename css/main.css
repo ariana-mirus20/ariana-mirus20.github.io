@@ -1,0 +1,20 @@
+* {
+    box-sizing:border-box;
+    -moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box; /* Safari */
+}
+
+
+
+.topheader {
+    background: #ffffff;
+    color: #dd8c22;
+    text-align: center;
+    line-height: 10px;
+    vertical-align: text-bottom
+}
+
+.headertext {
+    vertical-align: text-bottom
+    line-height: 120px; 
+}
