@@ -7,8 +7,8 @@
 
 
 .topheader {
-    background: #ffffff;
-    color: #dd8c22;
+    background: #f19762;
+    color: #e8e8e4;
     text-align: center;
     line-height: 10px;
     vertical-align: text-bottom
@@ -16,5 +16,41 @@
 
 .headertext {
     vertical-align: text-bottom
+    display: inline;
     line-height: 120px; 
+}
+
+#about {
+    background: #f19762;
+    color: #e8e8e4;
+    text-align: left;
+   
+}
+
+#aripic {
+  
+   padding-top: 25px;
+   padding-bottom: 25px;
+ 
+}
+
+.middle {
+    background-color: #f3c5a7;
+    padding-top: 25px;
+   padding-bottom: 25px;
+}
+
+.third {
+    background-color: #ebb96a;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
+.footer {
+    background: #f19762;
+    color: #e8e8e4;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
