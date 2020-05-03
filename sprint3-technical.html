@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Technical Learnings Sprint 3 </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/sprint3.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+</head>
+
+
+    <body>
+        <div class="container">
+            <header>
+                <div class="header1"> 
+                <h1> Technical Blog: Sprint 3 </h1>
+                </div>
+            </header>
+                <body>
+                    <div>
+                      <h2 class="text-center">Discussing Basic Javascript Concepts</h2>
+                    </div>
+    
+                    <div>
+                        <h3> Use an analogy to describe the differences between HTML and CSS </h3>
+                        <p> HTML is the basic structure of a webpage. It holds the basic rules,  
+                            plans for the page and is also the  space where you link other resource materials. 
+                            Think of HTML like a builder - working off plans and creating a strong structure that someone can 
+                            inhabit down the line.  
+                        </p>
+                        <p> CSS is the styling of a webpage. In your CSS (or stylesheet file) is where you create the look for your webpage. 
+                            The code for your CSS can also be written within your HTML but for confusion sake it is best to keep a seperate file 
+                            and link the two together. This keeps your work tidy and allows you to know exactly where to go  for those visual changes. 
+                            Think of CSS like a decorator. 
+                            The would help a builder or homeowner with interior styling, design, color schemes and the overall vibe of a space. 
+                        </p>
+                    </div>
+                    
+                        <div>
+                            <h3> Explain control flow and loops using an example process from everyday life </h3>
+                            <p> Control flow is the order in which the computer completes tasks as written in the code. 
+                                For example, in your daily routine you would have a way in which you execute your morning, 
+                                drive to work, complete your work day and then drive home. There is a controlled flow in the start to finish 
+                                of your day.  
+                            </p>
+                            <p> The computer will run code based on the order in which it is written from the beginning of the file to the end, 
+                                much like how you will run your day from start to finish. But what happens when you are late or expected to take 
+                                a detour on your way to work? This would be the equivalent of a ‘loop’ in your daily schedule. 
+                                Let’s imagine you’re in your car driving down your normal route but then discover the road is closed up ahead. 
+                                In order to complete your task of “getting to work” you will need to take a detour first to get to work. This will 
+                                require you to take a couple extra left and right turns to get you back on your way to the office. 
+                                Loops request the computer to run or perform a calculation and then give an answer before completing the rest of the code. 
+                                If you don’t take the detour and get back on the main road, you ain’t going to get to work! 
+                            </p>
+                        </div>
+
+                        <div>
+                            <h3> What is the DOM? How might you interact with it?</h3>
+                            <p>   DOM = Document Object Model </p>
+                            <p>Document - a file, let’s say your HTML file for your website </p>
+                            <p> Object - anything inside your HTML file - tags, links, basically anything written within the HTML file</p>
+                            <p>Model - how your HTML file is laid out. What parent tags do you have? 
+                                How many sibling tags are there? How have you laid out text and images? </p>
+                            <p> You can interact with your DOM from a text editor or directly in your chrome browser using ‘inspect’. If you are interacting with your file through a text editor, you will need to save your changes and then refresh your webpage to see the changes. If you are interacting with your file directly in your browser, you will see changes happen in real time. You do have the option to save changes you have made directly whilst using inspect in your browser but we will get into that later. 
+                            </p>
+                        </div>
+
+                        <div>
+                            <h3> What is the difference between accessing data from arrays vs. objects?</h3>
+                            <p> Arrays are ordered collections of data. They can hold different types of data such as numbers and strings. When accessing data within an array, you will need to use an index number for specific items. Here is an example of an array: </p>
+                            <div> 
+                                <p class="array1"> var myArray = [1, 2, 3, 4] </p>
+                                <p class="array2">var myArray = [“Sauce”, “Pepperoni”, “Mushroom”, “Mozzarella”]</p>
+                            </div>
+                            <p> If I wanted to call “Pepperoni” I would need to do the following: </p>
+                            <p class="function1">console.log[1]</p>
+                            <p>This would populate the answer “Pepperoni”. Even though pepperoni is the 2nd value in the array, computers count starting at 0. This means that the index numbers of the items within the array are as follows [0, 1, 2, 3]. If we wanted to call mushroom we would use the index number of [2]. </p>
+                            <p> In order to access data from an object however you will need to use a key  “.” after your function has been called.   </p>
+                            <p> var myCabin = {
+                                Material = ‘timber’;
+                                Location = ‘lake’;
+                                Rooms = [‘living room’; ‘dining room’; ‘bedroom 1’; ‘bathroom’; ‘deck’]
+                                Age = 30 
+                            }
+                             </p>
+                             <p> 
+                                myCabin.age = 30 <em class="green"> // this would show the age of the cabin located within the object </em>
+                                
+                             </p>
+                             <p>
+                                myCabin.rooms[3] = ‘bathroom’ <em class="green"> // this would show the ‘bathroom’ string within the array that is in the object </em>
+                             </p>
+                        
+                        
+                        </div>
+                        
+                        <div>
+                            <h3> Tell me, what are functions and why are they useful?</h3>
+                            <p> Functions ask your code to perform a task or make a calculation. These can be written as a single piece of code tucked nicely away within a block of code, and then called upon whenever you need it's super powers by using a single short command. Functions can save you time and finger typing when you are writing code for any project. You can also use this function multiple times so you do not have to continuously type out your code. Pretty neat eh? </p>
+                        </div>
+
+                        <div>
+                            <a href="index.html"> Take Me Home!</a>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </body>
+
+        </div>
+    </html>
